@@ -1,4 +1,4 @@
-Projekt z Next.js korzystająć z TypeScript
+Projekt z Next.js korzystając z TypeScript
 
 Zaczyamy
 

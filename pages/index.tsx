@@ -38,7 +38,11 @@ const IndexPage = () => {
   };
 
   const handleAmountChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setInputAmount(e.target.value);
+    const value = e.target.value;
+    const regex = /^\d*\.?\d*$/;
+    if (regex.test(value)) {
+      setInputAmount(e.target.value);
+    }
   };
 
   return (

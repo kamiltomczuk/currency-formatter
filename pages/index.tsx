@@ -109,7 +109,9 @@ const IndexPage = () => {
               checked={!isEuroToPln}
               onChange={handleToggleCurrency}
             />
-            {isEuroToPln ? "Selected value to PLN" : "PLN to Selected value"}
+            {isEuroToPln
+              ? "PLN to Selected value"
+              : "Selected value to PLNPLN to Selected value"}
           </label>
         </div>
         <select
